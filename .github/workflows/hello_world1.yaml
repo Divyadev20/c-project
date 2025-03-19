@@ -10,5 +10,5 @@ jobs:
      - name: checkout one
        uses: actions/checkout@v3
      - name: print message
-       run: echoo "HELLO WORLD GITHUB ACTIONS TESTING"
+       run: echo "HELLO WORLD GITHUB ACTIONS TESTING"
  
