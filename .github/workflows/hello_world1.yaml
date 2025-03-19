@@ -1,0 +1,14 @@
+name: Hello world
+on:
+ push:
+   branches:
+    - main
+jobs:
+ first-hello-world-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: checkout one
+       uses: actions/checkout@v3
+     - name: print message
+       run: echo "HELLO WORLD GITHUB ACTIONS TESTING"
+ 
